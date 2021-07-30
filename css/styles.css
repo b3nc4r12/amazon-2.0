@@ -1,0 +1,121 @@
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.main-section-banner {
+    background-image: url("https://i.ibb.co/JnmTD12/banner.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.w-324 {
+    max-width: 324px!important;
+}
+
+.hover\:scale-102:hover {
+    transform: scale(1.02)
+}
+
+@media (max-width: 1120px) {
+    .extra-large\:flex-col {
+        flex-direction: column;
+    }
+
+    .extra-large\:mt-5 {
+        margin-top: 20px;
+    }
+
+    .extra-large\:ml-0 {
+        margin-left: 0;
+    }
+
+    .extra-large\:h-auto {
+        height: auto;
+    }
+}
+
+@media (max-width: 938px) {
+    .large\:flex-col {
+        flex-direction: column;
+    }
+
+    .large\:mt-5 {
+        margin-top: 20px;
+    }
+
+    .large\:ml-0 {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .medium\:hidden {
+        display: none!important;
+    }
+
+    .medium\:ml-5 {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 687px) {
+    .small\:flex-col {
+        flex-direction: column;
+    }
+
+    .small\:mt-5 {
+        margin-top: 20px
+    }
+
+    .small\:ml-0 {
+        margin-left: 0;
+    }
+
+    .small\:hidden {
+        display: none!important;
+    }
+
+    .small\:ml-5 {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 605px) {
+    .extra-small\:flex-col {
+        flex-direction: column;
+    }
+
+    .extra-small\:mt-5 {
+        margin-top: 20px
+    }
+
+    .small\:ml-5 {
+        margin-left: 20px;
+    }
+
+    .extra-small\:ml-0 {
+        margin-left: 0;
+    }
+
+    .extra-small\:hidden {
+        display: none!important;
+    }
+
+    .extra-small\:justify-end {
+        justify-content: flex-end;
+    }
+
+    .extra-small\:flex-grow {
+        flex-grow: 1;
+    }
+}
+
+@media (max-width: 533px) {
+    .sidebar\:hidden {
+        display: none!important;
+    }
+
+    .sidebar-size\:w-auto {
+        width: auto!important;
+    }
+}
