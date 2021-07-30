@@ -78,6 +78,10 @@
     .small\:ml-5 {
         margin-left: 20px;
     }
+
+    .small\:w-full {
+        width: 100%;
+    }
 }
 
 @media (max-width: 605px) {

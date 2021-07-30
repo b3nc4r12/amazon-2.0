@@ -71,7 +71,7 @@
             </header>
 
             <!-- Main Content -->
-            <main class="flex h-screen extra-large:h-auto">
+            <main class="flex h-auto">
                 <!-- Sidebar -->
                 <section class="sidebar w-60 sidebar-size:w-auto bg-gray-900 border-t-2 border-gray-700 p-6">
                     <div>
@@ -167,11 +167,14 @@
 
                 <!-- Main -->
                 <section class="flex-1 p-6 bg-gray-100">
+                    <!-- Banner -->
                     <div class="rounded-lg main-section-banner h-44 shadow-lg flex items-end transition transform duration-150 hover:scale-102">
                         <div class="button bg-white w-36 h-10 rounded-full flex justify-center items-center m-4 cursor-pointer shadow-lg text-yellow-500 transition transform duration-150 hover:scale-110">
                             <h4>Browse Products</h4>
                         </div>
                     </div>
+
+                    <!-- Popular Categories -->
                     <div class="mt-8">
                         <h1 class="text-2xl text-gray-700 font-bold flex items-center mb-5">
                             Popular Categories
@@ -253,71 +256,105 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- Hot Deals -->
                     <div class="mt-8">
                         <h1 class="text-2xl text-gray-700 font-bold flex items-center mb-5">Hot Deals 🔥</h1>
-                        <div class="flex extra-large:flex-col">
-                            <div class="flex small:flex-col">
-                                <div class="bg-white rounded-lg shadow-md cursor-pointer transition transform duration-150 hover:scale-110  flex flex-col items-center">
-                                    <div class="w-48 h-52">
-                                        <img
-                                            class="w-full h-full object-contain p-4"
-                                            src="https://multimedia.bbycastatic.ca/multimedia/products/500x500/149/14926/14926634.jpg"
-                                            alt="Black iPhone 12 64GB"
-                                        >
+                        <div class="flex-col">
+                            <div class="flex extra-large:flex-col">
+                                <div class="flex small:flex-col">
+                                    <div class="bg-white rounded-lg shadow-md cursor-pointer transition transform duration-150 hover:scale-110  flex flex-col items-center">
+                                        <div class="w-48 h-52">
+                                            <img
+                                                class="w-full h-full object-contain p-4"
+                                                src="https://multimedia.bbycastatic.ca/multimedia/products/500x500/149/14926/14926634.jpg"
+                                                alt="Black iPhone 12 64GB"
+                                            >
+                                        </div>
+                                        <div class="flex flex-col w-full">
+                                            <h4 class="text-gray-700 font-bold text-sm px-4">Black iPhone 12 64GB</h4>
+                                            <h4 class="text-gray-700 font-bold text-sm px-4">(2020)</h4>
+                                            <h5 class="text-green-700 font-bold px-4">Apple</h5>
+                                            <div class="text-yellow-400 font-bold my-1 px-4">⭐⭐⭐⭐ 4.4</div>
+                                            <h3 class="font-bold text-gray-700 text-lg px-4 mb-3">$999.99 CAD</h3>
+                                        </div>
                                     </div>
-                                    <div class="flex flex-col w-full">
-                                        <h4 class="text-gray-700 font-bold text-sm px-4">Black iPhone 12 64GB</h4>
-                                        <h4 class="text-gray-700 font-bold text-sm px-4">(2020)</h4>
-                                        <h5 class="text-green-700 font-bold px-4">Apple</h5>
-                                        <div class="text-yellow-400 font-bold my-1 px-4">⭐⭐⭐⭐ 4.4</div>
-                                        <h3 class="font-bold text-gray-700 text-lg px-4 mb-3">$999.99 CAD</h3>
+                                    <div class="bg-white rounded-lg shadow-md cursor-pointer transition transform duration-150 hover:scale-110 flex flex-col items-center small:ml-0 ml-5 small:mt-5">
+                                        <div class="w-48 h-52">
+                                            <img 
+                                                class="w-full h-full object-contain p-4"
+                                                src="https://multimedia.bbycastatic.ca/multimedia/products/500x500/149/14964/14964951.jpg"
+                                                alt="Xbox Series X"
+                                            >
+                                        </div>
+                                        <div class="flex flex-col w-full">
+                                            <h4 class="text-gray-700 font-bold text-sm px-4">Xbox Series X (2020)</h4>
+                                            <h5 class="text-green-700 font-bold px-4">Microsoft</h5>
+                                            <div class="text-yellow-400 font-bold my-1 px-4">⭐⭐⭐⭐⭐ 4.8</div>
+                                            <h3 class="font-bold text-gray-700 text-lg px-4 mb-3">$599.99 CAD</h3>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="bg-white rounded-lg shadow-md cursor-pointer transition transform duration-150 hover:scale-110 flex flex-col items-center small:ml-0 ml-5 small:mt-5">
-                                    <div class="w-48 h-52">
-                                        <img 
-                                            class="w-full h-full object-contain p-4"
-                                            src="https://multimedia.bbycastatic.ca/multimedia/products/500x500/149/14964/14964951.jpg"
-                                            alt="Xbox Series X"
-                                        >
+                                <div class="flex extra-large:mt-5 ml-5 extra-large:ml-0 small:flex-col">
+                                    <div class="bg-white rounded-lg shadow-md cursor-pointer transition transform duration-150 hover:scale-110 flex flex-col items-center">
+                                        <div class="w-48 h-52">
+                                            <img 
+                                                class="w-full h-full object-contain p-4"
+                                                src="https://m.media-amazon.com/images/I/613oBFwUQ4L._AC_SL1200_.jpg" 
+                                                alt="Xbox Series S"
+                                            >
+                                        </div>
+                                        <div class="flex flex-col w-full">
+                                            <h4 class="text-gray-700 font-bold text-sm px-4">Xbox Series S (2020)</h4>
+                                            <h5 class="text-green-700 font-bold px-4">Microsoft</h5>
+                                            <div class="text-yellow-400 font-bold my-1 px-4">⭐⭐⭐⭐ 4.4</div>
+                                            <h3 class="font-bold text-gray-700 text-lg px-4 mb-3">$379.99 CAD</h3>
+                                        </div>
                                     </div>
-                                    <div class="flex flex-col w-full">
-                                        <h4 class="text-gray-700 font-bold text-sm px-4">Xbox Series X (2020)</h4>
-                                        <h5 class="text-green-700 font-bold px-4">Microsoft</h5>
-                                        <div class="text-yellow-400 font-bold my-1 px-4">⭐⭐⭐⭐⭐ 4.8</div>
-                                        <h3 class="font-bold text-gray-700 text-lg px-4 mb-3">$599.99 CAD</h3>
+                                    <div class="bg-white rounded-lg shadow-md cursor-pointer transition transform duration-150 hover:scale-110 flex flex-col items-center small:ml-0 ml-5 small:mt-5">
+                                        <div class="w-48 h-52">
+                                            <img 
+                                                class="w-full h-full object-contain p-4"
+                                                src="https://m.media-amazon.com/images/I/61-PblYntsL._AC_SX679_.jpg" 
+                                                alt="Nintendo Switch"
+                                            >
+                                        </div>
+                                        <div class="flex flex-col w-full">
+                                            <h4 class="text-gray-700 font-bold text-sm px-4">Nintendo Switch (2017)</h4>
+                                            <h5 class="text-green-700 font-bold px-4">Nintendo</h5>
+                                            <div class="text-yellow-400 font-bold my-1 px-4">⭐⭐⭐⭐⭐ 4.8</div>
+                                            <h3 class="font-bold text-gray-700 text-lg px-4 mb-3">$349.99 CAD</h3>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="flex extra-large:mt-5 ml-5 extra-large:ml-0 small:flex-col">
-                                <div class="bg-white rounded-lg shadow-md cursor-pointer transition transform duration-150 hover:scale-110 flex flex-col items-center">
-                                    <div class="w-48 h-52">
-                                        <img 
-                                            class="w-full h-full object-contain p-4"
-                                            src="https://m.media-amazon.com/images/I/613oBFwUQ4L._AC_SL1200_.jpg" 
-                                            alt="Xbox Series S"
-                                        >
+                            <div class="flex mt-5">
+                                <div class="flex 0 small:flex-col small:w-full">
+                                    <div
+                                        class="bg-white rounded-lg shadow-md cursor-pointer transition transform duration-150 hover:scale-110 flex flex-col items-center">
+                                        <div class="w-48 h-52">
+                                            <img class="w-full h-full object-contain p-4"
+                                                src="https://m.media-amazon.com/images/I/613oBFwUQ4L._AC_SL1200_.jpg" alt="Xbox Series S">
+                                        </div>
+                                        <div class="flex flex-col w-full">
+                                            <h4 class="text-gray-700 font-bold text-sm px-4">Xbox Series S (2020)</h4>
+                                            <h5 class="text-green-700 font-bold px-4">Microsoft</h5>
+                                            <div class="text-yellow-400 font-bold my-1 px-4">⭐⭐⭐⭐ 4.4</div>
+                                            <h3 class="font-bold text-gray-700 text-lg px-4 mb-3">$379.99 CAD</h3>
+                                        </div>
                                     </div>
-                                    <div class="flex flex-col w-full">
-                                        <h4 class="text-gray-700 font-bold text-sm px-4">Xbox Series S (2020)</h4>
-                                        <h5 class="text-green-700 font-bold px-4">Microsoft</h5>
-                                        <div class="text-yellow-400 font-bold my-1 px-4">⭐⭐⭐⭐ 4.4</div>
-                                        <h3 class="font-bold text-gray-700 text-lg px-4 mb-3">$379.99 CAD</h3>
-                                    </div>
-                                </div>
-                                <div class="bg-white rounded-lg shadow-md cursor-pointer transition transform duration-150 hover:scale-110 flex flex-col items-center small:ml-0 ml-5 small:mt-5">
-                                    <div class="w-48 h-52">
-                                        <img 
-                                            class="w-full h-full object-contain p-4"
-                                            src="https://m.media-amazon.com/images/I/61-PblYntsL._AC_SX679_.jpg" 
-                                            alt="Nintendo Switch"
-                                        >
-                                    </div>
-                                    <div class="flex flex-col w-full">
-                                        <h4 class="text-gray-700 font-bold text-sm px-4">Nintendo Switch (2017)</h4>
-                                        <h5 class="text-green-700 font-bold px-4">Nintendo</h5>
-                                        <div class="text-yellow-400 font-bold my-1 px-4">⭐⭐⭐⭐⭐ 4.8</div>
-                                        <h3 class="font-bold text-gray-700 text-lg px-4 mb-3">$349.99 CAD</h3>
+                                    <div
+                                        class="bg-white rounded-lg shadow-md cursor-pointer transition transform duration-150 hover:scale-110 flex flex-col items-center small:ml-0 ml-5 small:mt-5">
+                                        <div class="w-48 h-52">
+                                            <img class="w-full h-full object-contain p-4"
+                                                src="https://m.media-amazon.com/images/I/61-PblYntsL._AC_SX679_.jpg" alt="Nintendo Switch">
+                                        </div>
+                                        <div class="flex flex-col w-full">
+                                            <h4 class="text-gray-700 font-bold text-sm px-4">Nintendo Switch (2017)</h4>
+                                            <h5 class="text-green-700 font-bold px-4">Nintendo</h5>
+                                            <div class="text-yellow-400 font-bold my-1 px-4">⭐⭐⭐⭐⭐ 4.8</div>
+                                            <h3 class="font-bold text-gray-700 text-lg px-4 mb-3">$349.99 CAD</h3>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
