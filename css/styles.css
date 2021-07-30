@@ -32,6 +32,10 @@
     .extra-e-large\:ml-0 {
         margin-left: 0;
     }
+
+    .extra-e-large\:h-auto {
+        height: auto;
+    }
 }
 
 @media (max-width: 1120px) {
