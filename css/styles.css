@@ -16,6 +16,24 @@
     transform: scale(1.02)
 }
 
+@media (max-width: 1476px) {
+    .extra-e-large\:hidden {
+        display: none!important;
+    }
+
+    .extra-e-large\:flex-col {
+        flex-direction: column;
+    }
+
+    .extra-e-large\:mt-5 {
+        margin-top: 20px;
+    }
+
+    .extra-e-large\:ml-0 {
+        margin-left: 0;
+    }
+}
+
 @media (max-width: 1120px) {
     .extra-large\:flex-col {
         flex-direction: column;
