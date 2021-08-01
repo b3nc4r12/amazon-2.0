@@ -176,7 +176,7 @@ function generateItem2(item2) {
             <div class="flex flex-col w-full h-full justify-end">
                 <h4 class="text-gray-700 font-bold text-sm px-4">${item.title}</h4>
                 <h5 class="text-green-700 font-bold px-4">${item.brand}</h5>
-                <div class="text-yellow-400 font-bold my-1 px-4">⭐⭐⭐⭐ ${item.rating}</div>
+                <div class="text-yellow-400 font-bold my-1 px-4">⭐⭐⭐⭐⭐ ${item.rating}</div>
                 <h3 class="font-bold text-gray-700 text-lg px-4 mb-3">${numeral(item.price).format("$0,0.00")} CAD</h3>
             </div>
         `
@@ -204,7 +204,7 @@ function generateItem3(item3) {
             <div class="flex flex-col w-full h-full justify-end">
                 <h4 class="text-gray-700 font-bold text-sm px-4">${item.title}</h4>
                 <h5 class="text-green-700 font-bold px-4">${item.brand}</h5>
-                <div class="text-yellow-400 font-bold my-1 px-4">⭐⭐⭐⭐ ${item.rating}</div>
+                <div class="text-yellow-400 font-bold my-1 px-4">⭐⭐⭐⭐⭐ ${item.rating}</div>
                 <h3 class="font-bold text-gray-700 text-lg px-4 mb-3">${numeral(item.price).format("$0,0.00")} CAD</h3>
             </div>
         `
@@ -232,7 +232,7 @@ function generateItem4(item4) {
             <div class="flex flex-col w-full h-full justify-end">
                 <h4 class="text-gray-700 font-bold text-sm px-4">${item.title}</h4>
                 <h5 class="text-green-700 font-bold px-4">${item.brand}</h5>
-                <div class="text-yellow-400 font-bold my-1 px-4">⭐⭐⭐⭐ ${item.rating}</div>
+                <div class="text-yellow-400 font-bold my-1 px-4">⭐⭐⭐⭐⭐ ${item.rating}</div>
                 <h3 class="font-bold text-gray-700 text-lg px-4 mb-3">${numeral(item.price).format("$0,0.00")} CAD</h3>
             </div>
         `
@@ -288,7 +288,7 @@ function generateItem6(item6) {
             <div class="flex flex-col w-full h-full justify-end">
                 <h4 class="text-gray-700 font-bold text-sm px-4">${item.title}</h4>
                 <h5 class="text-green-700 font-bold px-4">${item.brand}</h5>
-                <div class="text-yellow-400 font-bold my-1 px-4">⭐⭐⭐⭐ ${item.rating}</div>
+                <div class="text-yellow-400 font-bold my-1 px-4">⭐⭐⭐⭐⭐ ${item.rating}</div>
                 <h3 class="font-bold text-gray-700 text-lg px-4 mb-3">${numeral(item.price).format("$0,0.00")} CAD</h3>
             </div>
         `
