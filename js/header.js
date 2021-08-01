@@ -1,4 +1,4 @@
-function getCartItems() {
+function getCartItemsNumber() {
     db
         .collection("cartItems")
         .onSnapshot((snapshot) => {
@@ -16,4 +16,4 @@ function setCartCounter(quantity) {
     document.querySelector(".cart-count").innerText = quantity;
 }
 
-getCartItems();
+getCartItemsNumber();

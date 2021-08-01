@@ -12,6 +12,10 @@
     max-width: 324px!important;
 }
 
+.hover\:scale-101:hover {
+    transform: scale(1.01)
+}
+
 .hover\:scale-102:hover {
     transform: scale(1.02)
 }

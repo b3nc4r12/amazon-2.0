@@ -149,7 +149,7 @@ function generateItem1(item1) {
                 <h4 class="text-gray-700 font-bold text-sm px-4">${item.title}</h4>
                 <h5 class="text-green-700 font-bold px-4">${item.brand}</h5>
                 <div class="text-yellow-400 font-bold my-1 px-4">⭐⭐⭐⭐ ${item.rating}</div>
-                <h3 class="font-bold text-gray-700 text-lg px-4 mb-3">$${item.price} CAD</h3>
+                <h3 class="font-bold text-gray-700 text-lg px-4 mb-3">${numeral(item.price).format("$0,0.00")} CAD</h3>
             </div>
         `
 
@@ -177,7 +177,7 @@ function generateItem2(item2) {
                 <h4 class="text-gray-700 font-bold text-sm px-4">${item.title}</h4>
                 <h5 class="text-green-700 font-bold px-4">${item.brand}</h5>
                 <div class="text-yellow-400 font-bold my-1 px-4">⭐⭐⭐⭐ ${item.rating}</div>
-                <h3 class="font-bold text-gray-700 text-lg px-4 mb-3">$${item.price} CAD</h3>
+                <h3 class="font-bold text-gray-700 text-lg px-4 mb-3">${numeral(item.price).format("$0,0.00")} CAD</h3>
             </div>
         `
 
@@ -205,7 +205,7 @@ function generateItem3(item3) {
                 <h4 class="text-gray-700 font-bold text-sm px-4">${item.title}</h4>
                 <h5 class="text-green-700 font-bold px-4">${item.brand}</h5>
                 <div class="text-yellow-400 font-bold my-1 px-4">⭐⭐⭐⭐ ${item.rating}</div>
-                <h3 class="font-bold text-gray-700 text-lg px-4 mb-3">$${item.price} CAD</h3>
+                <h3 class="font-bold text-gray-700 text-lg px-4 mb-3">${numeral(item.price).format("$0,0.00")} CAD</h3>
             </div>
         `
 
@@ -233,7 +233,7 @@ function generateItem4(item4) {
                 <h4 class="text-gray-700 font-bold text-sm px-4">${item.title}</h4>
                 <h5 class="text-green-700 font-bold px-4">${item.brand}</h5>
                 <div class="text-yellow-400 font-bold my-1 px-4">⭐⭐⭐⭐ ${item.rating}</div>
-                <h3 class="font-bold text-gray-700 text-lg px-4 mb-3">$${item.price} CAD</h3>
+                <h3 class="font-bold text-gray-700 text-lg px-4 mb-3">${numeral(item.price).format("$0,0.00")} CAD</h3>
             </div>
         `
 
@@ -261,7 +261,7 @@ function generateItem5(item5) {
                 <h4 class="text-gray-700 font-bold text-sm px-4">${item.title}</h4>
                 <h5 class="text-green-700 font-bold px-4">${item.brand}</h5>
                 <div class="text-yellow-400 font-bold my-1 px-4">⭐⭐⭐⭐ ${item.rating}</div>
-                <h3 class="font-bold text-gray-700 text-lg px-4 mb-3">$${item.price} CAD</h3>
+                <h3 class="font-bold text-gray-700 text-lg px-4 mb-3">${numeral(item.price).format("$0,0.00")} CAD</h3>
             </div>
         `
 
@@ -289,7 +289,7 @@ function generateItem6(item6) {
                 <h4 class="text-gray-700 font-bold text-sm px-4">${item.title}</h4>
                 <h5 class="text-green-700 font-bold px-4">${item.brand}</h5>
                 <div class="text-yellow-400 font-bold my-1 px-4">⭐⭐⭐⭐ ${item.rating}</div>
-                <h3 class="font-bold text-gray-700 text-lg px-4 mb-3">$${item.price} CAD</h3>
+                <h3 class="font-bold text-gray-700 text-lg px-4 mb-3">${numeral(item.price).format("$0,0.00")} CAD</h3>
             </div>
         `
 

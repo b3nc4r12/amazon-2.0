@@ -12,8 +12,12 @@
     <script src="https://cdn.jsdelivr.net/npm/jdenticon@3.1.0/dist/jdenticon.min.js" async
         integrity="sha384-VngWWnG9GS4jDgsGEUNaoRQtfBGiIKZTiXwm9KpgAeaRn6Y/1tAFiyXqSzqC8Ga/"
         crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-firestore.js"></script>
+    <script src="js/firebase.js"></script>
     <script src="js/header.js"></script>
+    <script src="js/cart.js"></script>
 </head>
 
 <body class="overflow-x-hidden hide-scrollbar bg-gray-100">
@@ -82,9 +86,9 @@
         </header>
 
         <!-- Main Content -->
-        <main class="flex h-screen">
+        <main class="flex">
             <!-- Sidebar -->
-            <section class="sidebar w-60 sidebar-size:w-auto bg-gray-900 border-t-2 border-gray-700 p-6">
+            <section class="sidebar w-60 h-auto sidebar-size:w-auto bg-gray-900 border-t-2 border-gray-700 p-6">
                 <div>
                     <div class="text-yellow-500 cursor-pointer flex font-bold mb-4 bg-gray-700 rounded-lg p-2">
                         <span class="w-8 sidebar-size:w-auto">
@@ -179,51 +183,22 @@
             </section>
 
             <!-- Cart -->
-            <section class="flex-1 p-6 bg-white">
-                <h1 class="font-bold text-3xl text-gray-400 mb-6">Shopping Cart</h1>
-                <div class="font-bold text-gray-400 flex">
+            <section class="flex-1 p-6 bg-gray-100">
+                <h1 class="font-bold text-3xl text-gray-500 mb-6">Shopping Cart</h1>
+                <div class="font-bold text-gray-500 flex p-5 pb-0">
                     <h2 class="flex-grow">Product</h2>
                     <h2 class="w-48">Quantity</h2>
                     <h2 class="w-48">Total Cost</h2>
                     <span class="w-10"></span>
                 </div>
-                <div class="mt-5">
-                    <div class="flex items-center">
-                        <div class="w-40 h-24 p-4 rounded-lg">
-                            <img class="w-full h-full object-contain"
-                                src="https://multimedia.bbycastatic.ca/multimedia/products/500x500/149/14964/14964951.jpg"
-                                alt="Xbox Series X">
-                        </div>
-                        <div class="flex-grow">
-                            <h4 class="font-bold text-sm text-gray-600">Xbox Series X (2020)</h4>
-                            <p class="text-sm text-gray-400">Microsoft</p>
-                        </div>
-                        <div class="w-48 flex items-center">
-                            <div
-                                class="bg-gray-100 text-gray-400 flex items-center h-6 w-6 justify-center rounded-lg mr-2 cursor-pointer hover:bg-gray-200 transition duration-100 ease-in-out">
-                                <i class="fas fa-chevron-left fa-xs"></i>
-                            </div>
-                            <h4 class="text-gray-400">1</h4>
-                            <div
-                                class="bg-gray-100 text-gray-400 flex items-center h-6 w-6 justify-center rounded-lg ml-2 cursor-pointer hover:bg-gray-200 transition duration-100 ease-in-out">
-                                <i class="fas fa-chevron-right fa-xs"></i>
-                            </div>
-                        </div>
-                        <div class="w-48 font-bold text-gray-400">
-                            <h2 class="text-lg">$599.99 CAD</h2>
-                        </div>
-                        <div class="w-10 font-bold text-gray-300 hover:text-gray-400 cursor-pointer">
-                            <i class="fas fa-times"></i>
-                        </div>
-                    </div>
-                </div>
+                <div class="cart-items"></div>
                 <div class="flex items-center justify-end mt-10">
-                    <div class="mr-7">
+                    <div class="mr-7 mb-6">
                         <h4 class="text-gray-400">Subtotal:</h4>
-                        <h1 class="text-gray-600 font-bold text-3xl">$599.99 CAD</h1>
+                        <h1 class="subtotal text-gray-600 font-bold text-3xl"></h1>
                     </div>
                     <div
-                        class="w-56 flex items-center justify-center bg-yellow-500 rounded-lg text-white h-16 cursor-pointer hover:bg-yellow-600">
+                        class="w-56 flex items-center justify-center bg-yellow-500 rounded-lg mb-6 text-white h-16 cursor-pointer hover:bg-yellow-600 shadow-md transition transform duration-150 hover:scale-105">
                         Complete Order</div>
                 </div>
             </section>
